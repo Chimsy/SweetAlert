@@ -4,8 +4,91 @@ Android Sweet Alert Examples
 These are simple examples from the dependent that thomper posted on their blog. Please Check it out using this link:
 https://jitpack.io/p/thomper/sweet-alert-dialog
 
-Shout out to @thomper for bringing back to life this dead project.
+
+Shout out to [@thomper](https://github.com/thomper/sweet-alert-dialog)  for bringing back to life this dead project.
+
 To Get Started Follow The Following Instructions:
+===================
+##Gradle
+Add it in your root build.gradle at the end of repositories:
+
+###Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+###Step 2. Add the dependency
+
+	dependencies {
+		implementation 'com.github.thomper:sweet-alert-dialog:1.4.0'
+	}
+##
+
+
+##Maven
+
+Step 1. Add the JitPack repository to your build file
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+Step 2. Add the dependency
+
+	<dependency>
+	    <groupId>com.github.thomper</groupId>
+	    <artifactId>sweet-alert-dialog</artifactId>
+	    <version>1.4.0</version>
+	</dependency>
+
+##
+
+
+##Sbt
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your build.sbt at the end of resolvers:
+
+ 
+    resolvers += "jitpack" at "https://jitpack.io"
+        
+    
+Step 2. Add the dependency
+
+
+                            
+    libraryDependencies += "com.github.thomper" % "sweet-alert-dialog" % "1.4.0"
+        
+        
+
+##
+
+##leiningen
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your project.clj at the end of repositories:
+
+ 
+    :repositories [["jitpack" "https://jitpack.io"]]
+        
+    
+Step 2. Add the dependency
+                           
+    :dependencies [[com.github.thomper/sweet-alert-dialog "1.4.0"]]
+        
+        
+
+##
+
 
 
 Sweet Alert Dialog
